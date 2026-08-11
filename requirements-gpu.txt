@@ -1,0 +1,8 @@
+# GPU mode — higher-accuracy word alignment via AWESOME-align (mBERT).
+# Recommended runtime: Google Colab with a T4 GPU (Runtime -> Change
+# runtime type -> T4 GPU).  Colab already ships torch; pip skips satisfied
+# requirements.
+torch>=2.0
+transformers>=4.30,<5
+numpy>=1.24
+awesome-align==2.0.1

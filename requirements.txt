@@ -1,0 +1,5 @@
+# Pure-CPU mode needs NO third-party packages: the rule-based engine is
+# stdlib-only (csv, re, argparse).
+#
+# For the GPU-accelerated mode (higher accuracy, e.g. in Google Colab),
+# install requirements-gpu.txt instead.
