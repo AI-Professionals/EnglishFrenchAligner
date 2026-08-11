@@ -43,7 +43,7 @@ you can run the same command on any machine.
 ## Quick start (local PC, no GPU)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/en_fr_align.git
+git clone https://github.com/AI-Professionals/EnglishFrenchAligner
 cd en_fr_align
 
 # process a CSV whose columns are [English, French]
