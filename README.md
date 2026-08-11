@@ -67,13 +67,14 @@ no packages to install for CPU mode.
 
 ## Uploading to GitHub
 
-1. `cd` into this folder (`en_fr_align/`) and initialize a repo:
+1. `cd` into this folder (`EnglishFrenchAligner/`) and initialize a repo:
    ```bash
    git init
    git add .
    git commit -m "EN-FR phrase alignment framework (CPU + optional GPU)"
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/en_fr_align.git
+   git remote add origin https://github.com/AI-Professionals/EnglishFrenchAligner
+.git
    git push -u origin main
    ```
 2. (Or just drag the folder to github.com/new → "uploading an existing file".)
@@ -102,8 +103,8 @@ then the `awesome-align` CLI — no code changes needed.
 ### Step 3 — get the framework and your CSV
 ```python
 # A) clone the framework from GitHub:
-!git clone https://github.com/YOUR_USERNAME/en_fr_align.git
-%cd en_fr_align
+!git clone https://github.com/AI-Professionals/EnglishFrenchAligner.git
+%cd EnglishFrenchAligner
 
 # B) upload your CSV (choose one of the two lines below)
 from google.colab import files
